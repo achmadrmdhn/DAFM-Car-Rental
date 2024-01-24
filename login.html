@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Here!</title>
+  <link rel="shortcut icon" href="./assets/favicon-3.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style/login.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <div class="account-wall">
+      <a href="./index.html" id="back-to-home">
+        <i class="bi bi-arrow-left" id="back-btn">
+          <p>
+            Back to Home
+          </p>
+        </i>
+      </a>
+      <h1 class="text-center login-title">Login Here</h1>
+      <img class="profile-img" src="./assets/user-3d-2.png" alt="User">
+      <form class="form-signin" id="form" action="./Kelola_kendaraan.html">
+        <input type="text" class="form-control" placeholder="Username" required autofocus id="username">
+        <input type="password" class="form-control" placeholder="Password" required id="password">
+        <label class="checkbox pull-left" id="remember">
+          <input type="checkbox" value="remember-me">
+          Remember me
+          <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+        </label>
+      </form>
+      <div class="sign">
+        <button class="btn bsb-btn-xl btn-primary btn-block" id="signin" type="button" onclick="login()">Sign in</button>
+        <p>Don't have any account? <a href="./signup.html" class="text-center new-account">Sign Up</a></p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/otentikasi.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

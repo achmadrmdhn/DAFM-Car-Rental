@@ -1,0 +1,321 @@
+:root {
+    --main: #FB493E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: auto;
+}
+
+/* Bold */
+h1 {
+    font-weight: 700;
+}
+
+/* Semibold */
+h2 {
+    font-weight: 600;
+}
+
+/* Light */
+h6 {
+    font-weight: 300;
+}
+
+/* Main Index */
+#produk, #koleksi, #semua-koleksi {
+    font-weight: 700;
+}
+
+#navbar-text, #text-login, #tagline {
+    font-weight: 600;
+}
+
+#navbar {
+    z-index: 1000;
+}
+
+#tagline {
+    color: var(--main);
+}
+/* End Index */
+
+/* Subscribe */
+.main-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mail img {
+    width: 200px;
+    margin-right: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.form > textarea {
+    resize: none;
+}
+/* End */
+
+ /* Booking */
+.main-booking {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-booking > h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-weight: bold;
+    color: var(--main);
+}
+
+#pilihan > select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-top: 5px;
+}
+
+#sd {
+    margin-top: 10px;
+}
+
+#main-btn-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#btn-form-2 {
+    margin-left: 10px;
+}
+#radio-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#radio-button div {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 80px;
+}
+#radio-button input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+/* Booking End */
+
+/* Produk Page */
+.main-produk {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.brd-produk {
+    text-align: right;
+    margin-right: 80px;
+    font-size: 1rem;
+}
+
+.produk-konten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produk-deskripsi {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.image-produk img {
+    width: 60%;
+    max-width: 200px;
+}
+
+#headline-produk {
+    color: var(--main);
+    font-weight: 600;
+}
+
+#paragraf {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#lihat-detail {
+    text-decoration: underline;
+    color: var(--main);
+    font-size: 14px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+/* Produk End */
+
+/* Detail Bus */
+.main-detail {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-brd-detail {
+    text-align: right;
+    margin-right: 0px;
+    font-size: 1rem;
+
+}
+
+.detail-konten {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.detail-deskripsi {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.detail-deskripsi > h2 {
+    color: var(--main);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.detail-deskripsi > p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.penjelasan-fasilitas {
+    font-size: 1rem;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+.image-detail img {
+    width: 60%;
+    max-width: 160px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 80px;
+}
+
+.lihatgambar-detail {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: var(--main);
+    font-size: 14px;
+}
+
+.lihatgambar-detail > a {
+    color: var(--main);
+}
+/* Detail End */
+
+
+/* WA */
+.btn-wa {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #25d366;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    z-index: 1000;
+}
+
+.section {
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.tooltip {
+    position: absolute;
+    top: 0.5rem;
+    right: 3rem;
+    font-size: 1rem;
+    background-color: #1c9b4a;
+    color: #ffffff;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-wa:hover .tooltip {
+    opacity: 1;
+}
+
+/* End WA */
