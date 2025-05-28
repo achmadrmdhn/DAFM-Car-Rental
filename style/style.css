@@ -67,7 +67,7 @@ h6 {
 
 .mail img {
     width: 200px;
-    margin-right: 300px;
+    margin-right: 0;
 }
 
 .form {
@@ -151,6 +151,7 @@ input, textarea {
 #radio-button input[type="radio"] {
     margin: 0 5px 0 0;
 }
+
 /* Booking End */
 
 /* Produk Page */
@@ -163,8 +164,8 @@ input, textarea {
 }
 
 .brd-produk {
-    text-align: right;
-    margin-right: 80px;
+    /* text-align: right; */
+    /* margin-right: 80px; */
     font-size: 1rem;
 }
 
@@ -219,7 +220,7 @@ hr{
 }
 
 .main-brd-detail {
-    text-align: right;
+    /* text-align: right; */
     margin-right: 0px;
     font-size: 1rem;
 

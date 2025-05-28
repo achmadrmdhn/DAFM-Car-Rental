@@ -8,19 +8,15 @@
     <link rel="shortcut icon" href="./assets/favicon-3.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css">
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <!-- Bootstrap Font Icon CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-white sticky-top shadow-sm" id="navbar" style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg bg-body-white sticky-top shadow-sm" id="navbar" style="background-color: #fff;">
             <div class="container-fluid">
                 <a class="navbar-brand ms-3 mt-2 mb-3" href="./index.html">
                 <img src="./assets/logo.png" alt="DAFM Car Rental" width="200px" />
@@ -57,17 +53,13 @@
             </div>
             </div>
         </nav>
-    <!-- Navbar End -->
-    
-    <!-- Produk Page -->
-    <div class="main-produk">
-        <div class="brd-produk">
-            <p>
+    <div class="main-produk container px-3 px-md-5">
+        <div class="brd-produk text-center text-md-end"> <p>
                 <a href="./index.html">Home</a> > Produk
             </p>
         </div>
-        <div class="produk-konten">
-            <div class="produk-deskripsi">
+        <div class="produk-konten d-flex flex-column flex-md-row justify-content-between align-items-center mb-5">
+            <div class="produk-deskripsi text-center text-md-start mb-4 mb-md-0">
                 <h3 id="headline-produk">Bus Wisata</h3>
                 <p id="paragraf">
                     Amanda bus Mercedes Benz yang terkenal akan “Safety & Comfort” dengan standar kenyamanan dan keamanan dibidang transportasi. Perjalanan Anda akan terasa berkesan dan tidak akan terlupakan berkat pelayanan ekstra baik dari armanda maupun kenyamanan pelayanan yang diberikan.
@@ -75,12 +67,14 @@
                 <p>
                     <a href="./amandabus.html" id="lihat-detail">Lihat detail</a>
                 </p>
-                <hr>
+                <hr class="d-md-none">
             </div>
-            <div class="image-produk"><img src="./assets/mobil/yellow-amanda.png" alt="amandabus"></div>
+            <div class="image-produk text-center">
+                <img src="./assets/mobil/yellow-amanda.png" alt="amandabus" class="img-fluid" style="max-width: 200px;">
+            </div>
         </div>
-        <div class="produk-konten">
-            <div class="produk-deskripsi">
+        <div class="produk-konten d-flex flex-column flex-md-row justify-content-between align-items-center mb-5">
+            <div class="produk-deskripsi text-center text-md-start mb-4 mb-md-0">
                 <h3 id="headline-produk">Minibus Keluarga</h3>
                 <p id="paragraf">
                     Mobil minibus merupakan wujud dari MPV dengan kemampuan mengangkut 7 penumpang dewasa dengan nyaman. Pilihannya tentu sangat banyak dan memberikan kenyamanan keluarga Anda.
@@ -88,12 +82,14 @@
                 <p>
                     <a href="./minibus.html" id="lihat-detail">Lihat detail</a>
                 </p>
-                <hr>
+                <hr class="d-md-none">
             </div>
-            <div class="image-produk"><img src="./assets/mobil/silver-minibus.png" alt="minibus"></div>
+            <div class="image-produk text-center">
+                <img src="./assets/mobil/silver-minibus.png" alt="minibus" class="img-fluid" style="max-width: 200px;">
+            </div>
         </div>
-        <div class="produk-konten">
-            <div class="produk-deskripsi">
+        <div class="produk-konten d-flex flex-column flex-md-row justify-content-between align-items-center mb-5">
+            <div class="produk-deskripsi text-center text-md-start mb-4 mb-md-0">
                 <h3 id="headline-produk">Bus Wisata Bintang 5</h3>
                 <p id="paragraf">
                     Menyediakan Layanan Bus Pariwasata Terbaik untuk Kebutuhan Anda. Kenyamanan dan Keamanan Anda dalam Setiap Perjalanan Wisata menjadi Priotas kami.
@@ -102,19 +98,18 @@
                     <a href="./buswisata.html" id="lihat-detail">Lihat detail</a>
                 </p>
             </div>
-            <div class="image-produk"><img src="./assets/mobil/white-bus.png" alt="buswisata"></div>
+            <div class="image-produk text-center">
+                <img src="./assets/mobil/white-bus.png" alt="buswisata" class="img-fluid" style="max-width: 200px;">
+            </div>
         </div>
     </div>
-    <!-- Produk End -->
-
-     <!-- Footer -->
-     <div class="container-fluid p-5" style="background-color: #fff; width: 100%; display: flex; flex-direction: row ;justify-content: center; margin-top: 50px;">
-        <div class="row">
-          <div class="col">
+    <div class="container-fluid p-5" style="background-color: #fff; width: 100%; display: flex; flex-direction: row ;justify-content: center; margin-top: 50px;">
+        <div class="row w-100">
+          <div class="col-12 col-md-4 mb-4 mb-md-0 text-center text-md-start">
             <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--main); margin-bottom: 20px;">DAFM Rental Car</h3>
             <p>Kami menawarkan beragam layanan dan jenis kendaraan yang dapat disesuaikan dengan kebutuhan Anda, mulai dari sewa kendaraan jangka pendek dan panjang untuk keperluan operasional bisnis hingga sewa mobil harian dengan pengemudi maupun lepas kunci untuk kebutuhan pribadi.</p>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-4 mb-4 mb-md-0 text-center text-md-start">
             <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--main); margin-bottom: 20px;">Kontak</h3>
             <p>
               <strong>DAFM Rental Car</strong>
@@ -126,7 +121,7 @@
               08237896592
             </p>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-4 text-center text-md-start">
             <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--main); margin-bottom: 20px;">Metode Pembayaran</h3>
             <p>
               <strong>Transfer Seluruh Rekening dan E-Wallet</strong> <br>
@@ -137,10 +132,7 @@
           </div>
         </div>
       </div>
-      <!-- Footer End -->
-
-        <!-- WA Button -->
-        <main>
+      <main>
             <a href="https://wa.me/62896159663" target="_blank" class="btn-wa">
             <div class="section">
                 <i class="bi bi-whatsapp"></i>
@@ -148,9 +140,7 @@
             </div>
             </a>
         </main>
-        <!-- End Wa -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
